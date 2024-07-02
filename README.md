@@ -47,7 +47,7 @@ The lists generation are followed [PFENet](https://github.com/dvlab-research/PFE
  Before running the code, you should generate the annotations for base classes by running `util/get_mulway_base_data.py`, more details are available at [BAM](https://github.com/chunbolang/BAM).
 ## Models
 
-We have adopted the same procedures as [BAM](https://github.com/chunbolang/BAM) and [HDMNet](https://github.com/Pbihao/HDMNet) for the [pre-trained backbones](https://mycuhk-my.sharepoint.com/:f:/g/personal/1155186045_link_cuhk_edu_hk/Eo5I56lRAOlIrKqcpFvA7NYBCiAzbB-mgdJwXNd4H6IPRQ?e=oufe8a), placing them in the `../initmodel` directory. 
+We have adopted the same procedures as [BAM](https://github.com/chunbolang/BAM) and [HDMNet](https://github.com/Pbihao/HDMNet) for the pre-trained backbones, placing them in the `../initmodel` directory. 
 
 Download CLIP pre-trained ViT-B/16 at [**here**](https://openaipublic.azureedge.net/clip/models/5806e77cd80f8b59890b7e101eabd078d9fb84e6937f9e85e4ecb61988df416f/ViT-B-16.pt) and put it to `../initmodel/clip`
 
