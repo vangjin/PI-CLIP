@@ -4,7 +4,7 @@ This is the official implementation for our **CVPR 2024** [paper](https://arxiv.
 
 Please note that the experimental results may vary due to different environments and settings. In all experiments on
 PASCAL-5{i} and COCO-20{i}, the images are set to 473×473. For COCO-20{i}, setting higher resolution can get higher performance, besides, PI-CLIP is only trained for 30 epochs
-on both PASCAL-5{i} and COCO-20{i} the model can perform better if can be trained for more epochs.However, it is still acceptable to compare your results with those reported in the paper.
+on both PASCAL-5{i} and COCO-20{i} the model can perform better if can be trained for more epochs. However, it is still acceptable to compare your results with those reported in the paper.
 
 
 
@@ -13,7 +13,7 @@ on both PASCAL-5{i} and COCO-20{i} the model can perform better if can be traine
 
 ## Get Started
 
-### 📘 Environment
+### Environment
 
 - python == 3.10.4
 - torch == 1.12.1
@@ -33,7 +33,7 @@ python env.py
 
 
 
-### 📝Dataset
+### Dataset
 Please download the following datasets and put them into the `../data` directory.:
 
 + PASCAL-5<sup>i</sup>: [**PASCAL VOC 2012**](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/) and [**SBD**](http://home.bharathh.info/pubs/codes/SBD/download.html)
