@@ -23,6 +23,7 @@ on both PASCAL-5{i} and COCO-20{i} the model can perform better if can be traine
 - mmsegmentation == 0.30.0
 
 ```
+cd PI-CLIP
 git clone https://github.com/lucasb-eyer/pydensecrf
 cd pydensecrf
 python setup.py install
